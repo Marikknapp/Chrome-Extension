@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Delete Cookies Extension",
+    "description": "Automatically deletes all browser cookies.",
+    "version": "1.0",
+    "permissions": [
+        "browsingData"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
